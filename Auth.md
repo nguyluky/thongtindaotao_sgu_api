@@ -18,24 +18,24 @@ Variables:
 
 
 Response:
- ```json
- {
-  "access_token": String,
-  "token_type": "bearer",
-  "expires_in": Int,
-  "refresh_token": String,
-  "userName": "{username}",
-  "id": String,
-  "logtime": String,
-  "code": String,
-  "result": "true" | "false",
-  "passtype": "0",
-  "name": String,
-  "principal": String,
-  "idpc": String,
-  "roles": "SINHVIEN" | "GV",
-  "wcf": "0",
-  ".expires": String,
-  ".issued": String
-}
+ ```ts
+type AuthResponse = {
+    access_token: string,
+    token_type: "bearer",
+    expires_in: number,
+    refresh_token: string,
+    userName: "{username}",
+    id: string,
+    logtime: string,
+    code: string,
+    result: "true" | "false",
+    passtype: "0",
+    name: string,
+    principal: string,
+    idpc: string,
+    roles: "SINHVIEN" | "GV",
+    wcf: "0",
+    .expires: string,
+    .issued: string
+}  
  ```

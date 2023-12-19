@@ -18,57 +18,55 @@ Body:
  ```
 
 Response:  
- ```json
- {
-  "data": {
-    "total_items": Int,
-    "total_pages": Int,
-    "so_tin_chi_min": Int,
-    "ngay_in": "YYYY-MM-DDThh:mm:ss+07:00",
-    "is_show_nganh_hoc": Bool,
-    "ds_kqdkmh": [
-      {
-        "id_kqdk": String,
-        "trang_thai_mon": String,
-        "ngay_dang_ky": String,
-        "nguoi_dang_ky": "{username}_web",
-        "is_da_rut_mon_hoc": Bool,
-        "enable_xoa": Bool,
-        "dien_giai_enable_xoa": String,
-        "hoc_phi_tam_tinh": 0,
-        "to_hoc": {
-          "id_to_hoc": String,
-          "id_mon": String,
-          "ma_mon": String,
-          "ten_mon": String,
-          "so_tc": String,
-          "so_tc_so": Int,
-          "is_vuot": Bool,
-          "nhom_to": String,
-          "lop": String,
-          "is_kdk": Bool,
-          "sl_dk": 0,
-          "sl_cp": 0,
-          "sl_cl": 0,
-          "tkb": String,
-          "is_hl": Bool,
-          "enable": Bool,
-          "hauk": Bool,
-          "is_dk": Bool,
-          "is_rot": Bool,
-          "is_ctdt": Bool,
-          "is_chctdt": Bool,
-          "is_kg_lt": Bool,
-          "thu": 0,
-          "tbd": 0,
-          "so_tiet": 0,
-          "is_kg_huy_kqdk": Bool
+ ```ts
+ type RegiCourseResponse = {
+  data: {
+    total_items: number,
+    total_pages: number,
+    so_tin_chi_min: number,
+    // ISO 8601 format
+    ngay_in: string,
+    is_show_nganh_hoc: boolean,
+    ds_kqdkmh: {
+        id_kqdk: string,
+        trang_thai_mon: string,
+        ngay_dang_ky: string,
+        nguoi_dang_ky: "{username}_web",
+        is_da_rut_mon_hoc: boolean,
+        enable_xoa: boolean,
+        dien_giai_enable_xoa: string,
+        hoc_phi_tam_tinh: 0,
+        to_hoc: {
+          id_to_hoc: string,
+          id_mon: string,
+          ma_mon: string,
+          ten_mon: string,
+          so_tc: string,
+          so_tc_so: number,
+          is_vuot: boolean,
+          nhom_to: string,
+          lop: string,
+          is_kdk: boolean,
+          sl_dk: 0,
+          sl_cp: 0,
+          sl_cl: 0,
+          tkb: string,
+          is_hl: boolean,
+          enable: boolean,
+          hauk: boolean,
+          is_dk: boolean,
+          is_rot: boolean,
+          is_ctdt: boolean,
+          is_chctdt: boolean,
+          is_kg_lt: boolean,
+          thu: 0,
+          tbd: 0,
+          so_tiet: 0,
+          is_kg_huy_kqdk: boolean
         }
-      },
-      ...
-    ]
+      }[],
   },
-  "result": true,
-  "code": 200
+  result: true,
+  code: 200
 }
  ```
