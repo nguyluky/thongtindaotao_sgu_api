@@ -4,8 +4,6 @@ Perform authorization request to get token
 
 Method: `POST`  
 URL: `https://thongtindaotao.sgu.edu.vn/api/auth/login`  
-Headers:  
- - `Content-Type`: `application/json`  
 
 Body:  
  ```
