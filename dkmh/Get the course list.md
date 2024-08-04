@@ -3,7 +3,7 @@
 get list class, course, industry code
 
 Method: `POST`  
-URL: `https://thongtindaotao.sgu.edu.vn/api/dkmh/w-locdsnhomto`  
+URL: `https://thongtindaotao.sgu.edu.vn/public/api/dkmh/w-locdsnhomto`  
 Headers:  
  - `Content-Type`: `application/json`  
  - `Authorization`: `Bearer {access_token}`

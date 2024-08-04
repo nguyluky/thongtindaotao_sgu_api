@@ -2,7 +2,7 @@
 Get student info (ex. industry code, class)
 
 Method: `POST`  
-URL: `https://thongtindaotao.sgu.edu.vn/api/dkmh/w-locsinhvieninfo`  
+URL: `https://thongtindaotao.sgu.edu.vn/public/api/dkmh/w-locsinhvieninfo`  
 Headers:  
  - `Content-Type`: `application/json`  
  - `Authorization`: `Bearer {access_token}`
