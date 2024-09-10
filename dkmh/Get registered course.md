@@ -1,7 +1,7 @@
 # Get Registered Course
 
 Method: `POST`  
-URL: `https://thongtindaotao.sgu.edu.vn/public/api/dkmh/w-locdskqdkmhsinhvien`  
+URL: `https://thongtindaotao.sgu.edu.vn/api/dkmh/w-locdskqdkmhsinhvien`  
 Headers:  
  - `Content-Type`: `application/json`  
  - `Authorization`: `Bearer {access_token}`

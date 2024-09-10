@@ -9,7 +9,7 @@ This is a page dedicated to the APIs I collected. The API is not officially supp
     * [refresh Auth](./auth/refresh_token.md)
 
 * Web Api
-    * [User Info](./Get%20student%20info.md)
+    * [User Info](./dkmh/Get%20student%20info.md)
     * [Notification for user](./web/Get%20notification.md) 
     * [Notification for all](./web/Get%20tuition.md)
 
@@ -30,3 +30,4 @@ This is a page dedicated to the APIs I collected. The API is not officially supp
     ```js
     JSON.parse(sessionStorage.getItem("CURRENT_USER")).access_token
     ```
+

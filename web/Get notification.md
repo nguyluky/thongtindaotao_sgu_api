@@ -1,7 +1,7 @@
 # Get Notification
 
 Method: `POST`  
-URL: `https://thongtindaotao.sgu.edu.vn/public/api/web/w-locdsthongbao`  
+URL: `https://thongtindaotao.sgu.edu.vn/api/web/w-locdsthongbao`  
 Headers:  
  - `Content-Type`: `application/json`  
  - `Authorization`: `Bearer {access_token}`
