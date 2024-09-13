@@ -32,7 +32,7 @@ This is a page dedicated to the APIs I collected. The API is not officially supp
     ```
 
 
-# Ủng Hộ Để Tôi Cố Động Lựu Cập Nhật <3
+# Ủng Hộ Để Tôi Có Động Lựu Cập Nhật <3
 
 MOMO: 0347402306  
 MB-Bank: 0347402306
