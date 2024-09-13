@@ -7,9 +7,12 @@ URL: `https://thongtindaotao.sgu.edu.vn/api/web/w-locdsthongbao`
 Headers:  
  - `Content-Type`: `application/json`  
  - `Authorization`: `Bearer {access_token}`
+ - `ua` : `{ua}`
+
 
 Variables:  
- - `{access_token}` : Read [auth](auth.md)
+ - `{access_token}` : Read [auth](../auth/Auth.md)
+ - `{ua}`: Read [ua](../script/ua.md)
 
 
 Response:  

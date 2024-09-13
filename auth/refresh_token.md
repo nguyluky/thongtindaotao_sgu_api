@@ -5,6 +5,14 @@ get new token when token time out
 Method: `POST`  
 URL: `https://thongtindaotao.sgu.edu.vn/api/auth/login`  
 
+Headers:  
+ - `Content-Type`: `application/x-www-form-urlencoded`
+ - `ua` : `{ua}`
+
+Variables:
+ - `{ua}`: Read [ua](../script/ua.md)
+
+
 Body:  
  ```
  refresh_token={refresh_token}&grant_type=refresh_token

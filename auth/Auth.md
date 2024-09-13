@@ -5,6 +5,13 @@ Perform authorization request to get token
 Method: `POST`  
 URL: `https://thongtindaotao.sgu.edu.vn/api/auth/login`  
 
+Headers:  
+ - `Content-Type`: `application/x-www-form-urlencoded`  
+ - `ua` : `{ua}`
+
+Variables:  
+ - `{ua}`: Read [ua](../script/ua.md)
+
 Body:  
  ```
  username={username}&password={password}&grant_type=password
